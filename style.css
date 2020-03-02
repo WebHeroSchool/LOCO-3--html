@@ -1,5 +1,5 @@
 body {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .home-page {
@@ -74,28 +74,88 @@ body {
 }
 
 .wrap {
+    position: relative;
     display: grid;
-    grid-template-columns: 710px 616px;
+    grid-template-columns: 680px 565px;
     grid-template-rows: 712px 80px;
 }
 
 .wrap-foto {
-    
+    display: grid;
+    align-self: center;
+    justify-self: end;
+    /*margin-right: 31px;*/
 }
 
 .wrap-coll {
+    margin: 0 20px 0 54px;
+    display: grid;
+    align-self: center;
+    justify-self: end;
 }
 
-.wrap-coll__new {
+.wrap-coll__new { 
+    margin: 0 13px 0 3px;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
     line-height: 82px;
 }
 
-.wrap-coll__delivery {
+.wrap-coll__delivery {  /*шрифт не меняется, от этого не меняется размер блока*/
+    margin: 26px 21px 36px 3px;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 15px; 
     line-height: 21px;
+}
+
+.wrap-coll__read { /*шрифт не меняется, от этого не меняется размер блока*/
+    display: grid;
+    align-self: end;
+    border: 1.5px solid #000000;
+    padding: 14px 41px;
+    left: 0;
+    margin-right: 288px;
+
+}
+
+.wrap-coll__other { /*не получается выровнять блок*/
+    display: grid;
+    align-self: center;
+    justify-self: end;
+
+}
+
+.wrap-coll__other_other {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0px;
+}
+
+.wrap-social {
+    margin: 18px 0;
+}
+
+.wrap-social__inst {
+    padding-right: 12px;
+
+}
+
+.wrap-social__vk {
+    padding-right: 12px;
+}
+
+.wrap-social__face {
+
+}
+
+.wrap__ellips {
+    position: absolute;
+    right: 565px;
+    display: grid;
+    align-self: end;
+    justify-self: center;
 }
