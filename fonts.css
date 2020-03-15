@@ -1,31 +1,24 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-regular-webfont.woff2') format('woff2'),
-       url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-regular-webfont.woff') format('woff');
+    src: url('C:/Users/Lena/Documents/LOCO/fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('C:/Users/Lena/Documents/LOCO/fonts/Montserrat-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Montserrat';
-     src: url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-medium-webfont.woff2') format('woff2'),
-       url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-medium-webfont.woff') format('woff');
+     src: url('C:/Users/Lena/Documents/LOCO/fonts/Montserrat-Medium.woff2') format('woff2'),
+       url('C:/Users/Lena/Documents/LOCO/fonts/Montserrat-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Montserrat';
-     src: url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-bold-webfont.woff2') format('woff2'),
-       url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-bold-webfont.woff') format('woff');
+     src: url('C:/Users/Lena/Documents/LOCO/fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('C:/Users/Lena/Documents/LOCO/fonts/Montserrat-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
   } 
 
-  @font-face {
-    font-family: 'Montserrat';
-     src: url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
-       url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-extrabold-webfont.woff') format('woff');
-    font-weight: 800;
-    font-style: normal;
-  } 
