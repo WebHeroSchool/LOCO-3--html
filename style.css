@@ -1,48 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+input,button {
+    font-family: inherit;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    max-width: 1440px;
+    min-width: 375px;
 }
 
 .home-page {
-    width: 1440px;
-    height: 900px;
-    margin: 0 auto;
-    position: relative;
+    background: linear-gradient(to right, #000 36.5%, #fff 36.5%);
+    height: 98vh;
 }
 
 .header {
+    height: 12vh;
     display: flex;
-    align-items: flex-start;
-}
-
-.page {
-    background: #000;
-    height: 900px;
-    width: 461px;
+    justify-content: space-between;
+    position: relative;
 }
 
 .logo {
-    /*width: 100%;
-    margin: 0 auto;*/
     display: flex;
-    align-items: center;
-    justify-content: space-around; 
+    width: 36.5%;
+    justify-content: space-around;
+    align-self: center;
+    margin-right: 930px;
 }
 
 .logo__loco {
+    display: flex;
+    margin: 0 238px 0 53px;
+    /*margin-right: 292px;*/
     color: #fff;
-    /*font: normal 500 30px/37px;*/
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 37px;
     letter-spacing: .07em;
-    margin-right: 130px;
 }
 
 .logo__lang {
+    display: flex;
+    align-self: center;
     color: #fff;
     text-decoration: none;
-    /*font: normal 500 normal 20px/24px;*/
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -53,95 +61,106 @@ body {
     width: 92px;
     height: 92px;
     background: #E5E5E5;
-    margin: 0 auto;
     display: flex;
     justify-content: flex-end;
-    margin-right: 0;
 }
-   
+
 .square__burger {
-    margin: 0 auto;
     display: flex;
     justify-content: flex-end;
-    margin-right: 0;
     padding: 40px 29px;
 }
 
 .home {
-    position: absolute;
-    left: 50px;
-    top: 61px;
+    
 }
 
 .wrap {
-    position: relative;
     display: grid;
-    grid-template-columns: 680px 565px;
-    grid-template-rows: 712px 80px;
+    grid-template-columns: 735px 513px;
+    grid-template-rows: 620px 131px;
+    grid-column-gap: 50px;
 }
 
 .wrap-foto {
     display: grid;
-    align-self: center;
     justify-self: end;
-    /*margin-right: 31px;*/
+    align-self: flex-end;
 }
 
 .wrap-coll {
-    margin: 0 20px 0 54px;
     display: grid;
-    align-self: center;
-    justify-self: end;
+    justify-items: center;
+    align-items: end;
+    margin-top: 149px;
 }
 
-.wrap-coll__new { 
-    margin: 0 13px 0 3px;
+.wrap-coll__new {
+    display: grid;
+    align-self: end;
+    margin: 0 34px 12px 5px;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
-    line-height: 82px;
+    line-height: 81px;
 }
 
-.wrap-coll__delivery {  /*шрифт не меняется, от этого не меняется размер блока*/
-    margin: 26px 21px 36px 3px;
+.wrap-coll__delivery {
+    display: grid;
+    align-self: center;
     font-style: normal;
     font-weight: normal;
     font-size: 15px; 
     line-height: 21px;
+    margin: 0 41px 30px 5px;
 }
 
-.wrap-coll__read { /*шрифт не меняется, от этого не меняется размер блока*/
-    display: grid;
-    align-self: end;
-    border: 1.5px solid #000000;
-    padding: 14px 41px;
-    left: 0;
-    margin-right: 288px;
-
+.wrap-coll__else {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    margin-right: 22px;
 }
 
-.wrap-coll__other { /*не получается выровнять блок*/
-    display: grid;
-    align-self: center;
-    justify-self: end;
-
+.wrap-coll__read {
+    display: flex;
+    border: 1.5px solid #000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 13px 40px;
+    margin: 0 53px 0 0;
 }
 
-.wrap-coll__other_other {
+.wrap-coll__other {
+    color: #000;
+    margin: auto;
+    display: flex;
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
-    line-height: 0px;
+}
+
+.wrap-coll__other:after {
+    margin: 8px 0 0 19px;
+    content: '';
+    width: 38px;
+    height: 0;
+    border: 1.2px solid #000;
+    transform: rotate(-180deg);
 }
 
 .wrap-social {
-    margin: 18px 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-items: end;
 }
 
 .wrap-social__inst {
-    padding-right: 12px;
-
+    margin: 0 0 0 50px;
+    padding-right: 15px;
 }
 
 .wrap-social__vk {
@@ -149,13 +168,10 @@ body {
 }
 
 .wrap-social__face {
-
 }
 
 .wrap__ellips {
     position: absolute;
-    right: 565px;
-    display: grid;
-    align-self: end;
-    justify-self: center;
+    top: 54px;
+    left: 425px;
 }

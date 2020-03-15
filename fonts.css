@@ -21,3 +21,11 @@
     font-weight: bold;
     font-style: normal;
   } 
+
+  @font-face {
+    font-family: 'Montserrat';
+     src: url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+       url('C:/Users/Lena/Documents/html/LOCO/fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+  } 
