@@ -849,7 +849,7 @@ i {
 
   .wrap-coll__new {
     font-size: 39px;
-    top: 405px;
+    top: 450px;
     padding: 0 0 0 100px;
   }
 
@@ -869,7 +869,7 @@ i {
   }
 
   .wrap-img {
-    /*top: 15px;*/
+    top: 15px;
     z-index: -1;
   }
 
@@ -882,11 +882,12 @@ i {
 
   .vector {
     margin-left: 139px;
+    bottom: 0;
   }
 }
 
 
-@media (min-width: 320px) and (max-width: 350px) {
+@media (min-width: 320px) and (max-width: 360px) {
   .logo {
     padding: 16px 0 16px 25px;
   }
@@ -901,12 +902,13 @@ i {
 
   .wrap-coll__new {
     font-size: 40px;
-    top: 310px;
+    top: 350px;
     padding: 0 52px 0 40px;
   }
 
   .vector {
     margin-left: 109px;
+    bottom: 10px;
   }
 }
 
@@ -937,7 +939,7 @@ i {
     position: fixed;
     font-size: 40px;
     line-height: 41px;
-    top: 340px;
+    top: 360px;
     padding: 0 35px;
   }
 
