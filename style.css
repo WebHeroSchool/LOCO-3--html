@@ -17,7 +17,7 @@ body {
 
 .home-page {                       
   background: linear-gradient(to right, #000 460px, #fff 460px);
-  height: 100vh;
+  height: 900px;
 }
 
 .header {
@@ -215,11 +215,11 @@ i {
 @media (max-width: 1920px) {
   .home-page {
     background: linear-gradient(to right, #000 560px, #fff 560px);
-    height: 100vh; 
+    /*height: 100vh; */
   }
 
   .header {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   .logo__loco {
@@ -241,9 +241,9 @@ i {
   }
 
   .wrap-foto {
-    width: 36%;
+    /*width: 36%;*/
     padding: 0 89px 0 185px;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
   }
 
   .wrap-coll {
@@ -286,10 +286,10 @@ i {
     margin-left: 56px;
   }
 
-  .wrap-social {
+  /*.wrap-social {
     display: block;
     position: absolute;
-  }
+  }*/
 
   .wrap__ellips {
     display: block;
@@ -301,7 +301,7 @@ i {
 @media (max-width: 1600px) {
   .home-page {
     background: linear-gradient(to right, #000 500px, #fff 500px);
-    height: 100vh; 
+   /* height: 100vh; */
   }
 
   .header {
@@ -376,7 +376,7 @@ i {
 @media (max-width: 1440px) {
   .home-page {
     background: linear-gradient(to right, #000 460px, #fff 460px);
-    height: 100vh;
+    /*height: 100vh;*/
   }
 
   .logo__loco {
@@ -527,7 +527,7 @@ i {
 @media (max-width: 1025px) {
   .home-page {
     background: linear-gradient(to right, #000 330px, #fff 330px);
-    height: 100vh;
+    /*height: 100vh;*/
   }
 
   .logo {
@@ -613,7 +613,7 @@ i {
 @media (max-width: 854px) {
   .home-page {
     background: linear-gradient(to right, #000 250px, #fff 250px);
-    height: 100vh;
+    /*height: 100vh;*/
   }
 
   .header {
@@ -709,7 +709,7 @@ i {
   }
 
   .square__burger {
-    padding: 27px 17px;
+    padding: 28px 18px;
   }
 
   .wrap-coll {
@@ -729,7 +729,7 @@ i {
 
   .wrap-coll__new {
     font-size: 49px;
-    top: 600px;
+    top: 595px;
     padding: 0 0 0 230px;
     position: relative;
   }
@@ -740,7 +740,7 @@ i {
     margin-left: 119px;
     cursor: pointer;
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
   }
 
   .vector:before {
@@ -784,7 +784,7 @@ i {
 @media (max-width: 730px) {
   .wrap-coll__new {
     font-size: 47px;
-    top: 565px;
+    top: 560px;
     padding: 0 0 0 220px;
   }
 }
@@ -792,7 +792,7 @@ i {
 @media (max-width: 690px) {
   .wrap-coll__new {
     font-size: 45px;
-    top: 525px;
+    top: 515px;
     padding: 0 0 0 210px;
   }
 }
@@ -800,7 +800,7 @@ i {
 @media (max-width: 640px) {
   .wrap-coll__new {
     font-size: 45px;
-    top: 485px;
+    top: 475px;
     padding: 0 0 0 200px;
   }
 }
@@ -808,7 +808,7 @@ i {
 @media (max-width: 600px) {
   .wrap-coll__new {
     font-size: 43px;
-    top: 445px;
+    top: 435px;
     padding: 0 0 0 180px;
   }
 }
@@ -816,7 +816,7 @@ i {
 @media (max-width: 555px) {
   .wrap-coll__new {
     font-size: 41px;
-    top: 405px;
+    top: 395px;
     width: 100%;
     padding: 0 0 0 150px;
   }
@@ -825,7 +825,7 @@ i {
 @media (max-width: 510px) {
   .wrap-coll__new {
     font-size: 41px;
-    top: 365px;
+    top: 355px;
     width: 100%;
     padding: 0 0 0 120px;
   }
@@ -849,7 +849,7 @@ i {
 
   .wrap-coll__new {
     font-size: 39px;
-    top: 435px;
+    top: 405px;
     padding: 0 0 0 100px;
   }
 
@@ -869,7 +869,7 @@ i {
   }
 
   .wrap-img {
-    top: 15px;
+    /*top: 15px;*/
     z-index: -1;
   }
 
@@ -896,12 +896,12 @@ i {
   }
 
   .wrap-img {
-    top: 55px;
+    top: 70px;
   }
 
   .wrap-coll__new {
     font-size: 40px;
-    top: 340px;
+    top: 310px;
     padding: 0 52px 0 40px;
   }
 
@@ -937,8 +937,8 @@ i {
     position: fixed;
     font-size: 40px;
     line-height: 41px;
-    top: 370px;
-    padding: 0 0 0 15px;
+    top: 340px;
+    padding: 0 35px;
   }
 
   .vector {
