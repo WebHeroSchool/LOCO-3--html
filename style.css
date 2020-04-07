@@ -12,12 +12,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0 auto;
   min-width: 320px; 
-  max-width: 1920px;
+  max-width: 1440px;
 }
 
 .home-page {                       
   background: linear-gradient(to right, #000 460px, #fff 460px);
-  height: 900px;
+  min-height: 900px;
 }
 
 .header {
@@ -215,7 +215,6 @@ i {
 @media (max-width: 1920px) {
   .home-page {
     background: linear-gradient(to right, #000 560px, #fff 560px);
-    /*height: 100vh; */
   }
 
   .header {
@@ -241,26 +240,25 @@ i {
   }
 
   .wrap-foto {
-    /*width: 36%;*/
-    padding: 0 89px 0 185px;
+    padding: 0 99px 0 105px;
     margin-bottom: 70px;
   }
 
   .wrap-coll {
-    padding-top: 72px;
+    padding-top: 62px;
   }
 
   .wrap-coll__new {
-    font-size: 100px;
-    line-height: 100px;
+    font-size: 95px;
+    line-height: 90px;
     margin-bottom: 20px;
   }
 
   .wrap-coll__delivery {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
     margin-bottom: 47px;
-    padding: 0 165px 0 3px;
+    padding: 0 85px 0 3px;
   }
 
   .wrap-coll__read {
@@ -286,11 +284,6 @@ i {
     margin-left: 56px;
   }
 
-  /*.wrap-social {
-    display: block;
-    position: absolute;
-  }*/
-
   .wrap__ellips {
     display: block;
     margin: auto;
@@ -301,7 +294,6 @@ i {
 @media (max-width: 1600px) {
   .home-page {
     background: linear-gradient(to right, #000 500px, #fff 500px);
-   /* height: 100vh; */
   }
 
   .header {
@@ -328,7 +320,7 @@ i {
 
   .wrap-foto {
     width: 34%;
-    padding: 0 72px 0 185px;
+    padding: 0 82px 0 145px;
     margin-bottom: 68px;
   }
 
@@ -409,6 +401,7 @@ i {
 
   .wrap-coll__new {
     font-size: 80px;
+    line-height: 81px;
     margin-bottom: 19px;
   }
 
@@ -420,7 +413,7 @@ i {
 
   .wrap-coll__read {
     font-size: 13px;
-    margin-right: 49px;
+    margin-right: 50px;
   }
 
   .wrap-coll__other {
@@ -451,11 +444,19 @@ i {
   }
 }
 
-@media (min-width: 1282px) and (max-width: 1439px){
+@media (min-width: 1282px) and (max-width: 1409px){
+  .home-page {
+    min-height: 850px;
+  }
+
+  .header {
+    margin-bottom: 67px;
+  }
+
   .wrap-foto {
     width: 38%;
     padding: 0 52px 0 125px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
 
   .wrap-coll {
@@ -468,6 +469,10 @@ i {
 }
 
 @media (max-width: 1281px) {
+  .home-page {
+    min-height: 760px;
+  }
+
   .header {
     margin-bottom: 37px;
   }
@@ -493,9 +498,13 @@ i {
 }
 
 @media (max-width: 1152px) {
+  .home-page {
+    min-height: 710px;
+  }
+
   .wrap-foto {
     padding: 0 52px 0 85px;
-    margin-bottom: 98px;
+    /*margin-bottom: 98px;*/
   }
 
   .wrap-coll {
@@ -527,7 +536,7 @@ i {
 @media (max-width: 1025px) {
   .home-page {
     background: linear-gradient(to right, #000 330px, #fff 330px);
-    /*height: 100vh;*/
+    min-height: 550px;
   }
 
   .logo {
@@ -554,7 +563,7 @@ i {
 
   .wrap-foto {
     width: 34%;
-    padding: 0 42px 0 45px;
+    padding: 0 62px 0 65px;
     margin-bottom: 28px;
   }
 
@@ -613,7 +622,7 @@ i {
 @media (max-width: 854px) {
   .home-page {
     background: linear-gradient(to right, #000 250px, #fff 250px);
-    /*height: 100vh;*/
+    min-height: 480px;
   }
 
   .header {
@@ -639,14 +648,16 @@ i {
   }
 
   .wrap-foto {
-    display: none;
+    width: 36%;
+    padding: 0 55px 0 70px;
+    margin-bottom: 38px;
   }
 
-  .wrap-img {
+  /*.wrap-img {
     display: inline-block;
     width: 34%;
     padding: 0 30px;
-  }
+  }*/
 
   .wrap-coll__new {
     font-size: 38px;
@@ -662,8 +673,8 @@ i {
   }
   .wrap-coll__read {
     font-size: 9px;
-    padding: 8px 25px;
-    margin-right: 25px;
+    padding: 8px 21px;
+    margin-right: 30px;
   }
   .wrap-coll__other {
       font-size: 9px;
@@ -673,11 +684,24 @@ i {
     margin: 0 0 4px 15px;
   }
   .wrap-social {
-    display: none;
+    display: block;
+    width: 20%;
   }
-  .wrap__ellips {
+
+  .wrap-social__inst {
+    width: 15%;
+    margin: 0 0 0 60px;
+  }
+  .wrap-social__vk {
+    width: 15%;
+  }
+  .wrap-social__face {
+    width: 15%;
+  }
+
+  /*.wrap__ellips {
     display: inline-block;
-  }
+  }*/
 }
 
 @media (max-width: 768px) {
@@ -902,7 +926,7 @@ i {
 
   .wrap-coll__new {
     font-size: 40px;
-    top: 350px;
+    top: 360px;
     padding: 0 52px 0 40px;
   }
 
@@ -939,7 +963,7 @@ i {
     position: fixed;
     font-size: 40px;
     line-height: 41px;
-    top: 360px;
+    top: 390px;
     padding: 0 35px;
   }
 
