@@ -390,7 +390,7 @@ i {
   display: inline-block;
   background: #fff;
   border: 1.4px solid #000;
-  font: normal 500 13px 'Montserrat';
+  font: normal 500 13px/0 'Montserrat';
   padding: 22px 47px 21px 39px;
   cursor: pointer;
 }
@@ -537,7 +537,7 @@ i {
 .add__basket {
   background: #FAE8E4;
   border: 1.4px solid #000;
-  font: normal 500 13px 'Montserrat';
+  font: normal 500 13px/0 'Montserrat';
   padding: 21px 46px 21px 41px;
   cursor: pointer;
 }
